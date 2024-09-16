@@ -1,0 +1,14 @@
+.idea
+
+MorphometricAnalysis/data
+MorphometricAnalysis/results
+MorphometricAnalysis/splits
+
+logs
+splits
+
+emissions.csv
+
+ReverseQuPath/WSIs
+ReverseQuPath/results
+ReverseQuPath/QuPathProject

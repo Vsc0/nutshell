@@ -1,0 +1,28 @@
+{
+  "spec_version": "1.0",
+  "architecture": "unet32",
+  "num_classes": 3,
+  "patch_size_pixels": 512,
+  "spacing_um_px": 0.25,
+  "class_names": [
+    "HP",
+    "NIFTP",
+    "PTC"
+  ],
+  "class_hexadecimals": [
+    "#029e73",
+    "#0173b2",
+    "#d55e00"
+  ],
+  "transform": [
+    {
+      "name": "Resize",
+      "arguments": {
+        "size": 512
+      }
+    },
+    {
+      "name": "ToTensor"
+    }
+  ]
+}
